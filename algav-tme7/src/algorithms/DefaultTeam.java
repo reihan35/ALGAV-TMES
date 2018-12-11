@@ -30,7 +30,7 @@ public class DefaultTeam {
   // calculDiametre: ArrayList<Point> --> Line
   //   renvoie une paire de points de la liste, de distance maximum.
   public Line calculDiametre(ArrayList<Point> points) {
-    if (points.size()<3) {
+    /*if (points.size()<3) {
       return null;
     }
 
@@ -52,7 +52,8 @@ public class DefaultTeam {
     	}
     }
 
-    return new Line(p,q);
+    return new Line(p,q);*/
+	  
   }
   
   public Point calculDistMax(Point p, ArrayList<Point> points) {
